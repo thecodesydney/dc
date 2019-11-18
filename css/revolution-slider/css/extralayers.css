@@ -819,6 +819,20 @@ border-color:rgb(0, 0, 0);
 border-style:none;
 }
 
+.tp-caption.light_heavy_75 {
+   font-size:75px;
+   line-height:75px;
+   font-weight:900;
+   font-family:Raleway;
+   color:rgb(255, 255, 255);
+   text-decoration:none;
+   background-color:transparent;
+   text-shadow:none;
+   border-width:0px;
+   border-color:rgb(0, 0, 0);
+   border-style:none;
+   }
+
 .tp-caption.black_heavy_70 {
 font-size:70px;
 line-height:70px;
@@ -832,6 +846,20 @@ border-width:0px;
 border-color:rgb(0, 0, 0);
 border-style:none;
 }
+
+.tp-caption.black_heavy_100 {
+   font-size:100px;
+   line-height:100px;
+   font-weight:900;
+   font-family:Raleway;
+   color:rgb(0, 0, 0);
+   text-decoration:none;
+   background-color:transparent;
+   text-shadow:none;
+   border-width:0px;
+   border-color:rgb(0, 0, 0);
+   border-style:none;
+   }
 
 .tp-caption.black_bold_bg_20 {
 font-size:20px;

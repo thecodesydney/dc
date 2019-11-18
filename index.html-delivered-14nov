@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<!--[if IE 8]>          <html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>          <html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->  
+<html> 
+	<!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Home | Deadly Connections</title>
+        <meta name="description" content="Deadly Connections Community and Justice Services">
+        <meta name="author" content="www.code.sydney">
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,700,800,900' rel='stylesheet' type='text/css'>
+        <!-- Library CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="css/animations.css" media="screen">
+        <link rel="stylesheet" href="css/superfish.css" media="screen">
+        <link rel="stylesheet" href="css/revolution-slider/css/settings.css" media="screen">
+        <link rel="stylesheet" href="css/revolution-slider/css/extralayers.css" media="screen">
+        <link rel="stylesheet" href="css/prettyPhoto.css" media="screen">
+        <!-- Theme CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Skin -->
+        <link rel="stylesheet" href="css/colors/gray.css" class="colors">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/theme-responsive.css">
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="img/ico/DC_Favicon.png">
+        <!--
+        <link rel="apple-touch-icon" href="img/ico/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-touch-icon-72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-touch-icon-114.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-touch-icon-144.png">
+        -->
+        <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <!--[if IE]>
+        <link rel="stylesheet" href="css/ie.css">
+        <![endif]-->
+    </head>
+    <body class="home">
+        <div class="page-mask">
+            <div class="page-loader">
+                <div class="spinner"></div>
+                Loading...
+            </div>
+        </div>
+        <!-- Wrap -->
+        <div class="wrap">
+            <!-- Header -->
+            <header id="header">
+                <!-- Header Top Bar -->
+                <div class="top-bar">
+                    <div class="slidedown collapse">
+                        <div class="container">
+                            <div class="pull-left">
+                                <ul class="social pull-left">
+                                    <li class="facebook"><a href="https://www.facebook.com/deadlyconnections/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter"><a href="https://twitter.com/cajsdeadly" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="linkedin"><a href="https://au.linkedin.com/company/deadly-connections-community-justice-services" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="phone-login pull-right">
+                                <button data-target="#myModal" data-toggle="modal" class="btn push-top push-bottom btn-color">
+                                    Donate
+                                </button>
+                                <!--
+                                <a><i class="fa fa-phone"></i> Call Us : +880 111-111-111</a>
+                                <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-sign-in"></i> Login</a>
+                                <a href="#" data-toggle="modal" data-target="#registrationModal"><i class="fa fa-edit"></i> Registration</a>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Header Top Bar -->
+                <!-- Main Header -->
+                <div class="main-header">
+                    <div class="container">
+                        <!-- TopNav -->
+                        <div class="topnav navbar-header">
+                            <a class="navbar-toggle down-button" data-toggle="collapse" data-target=".slidedown">
+                            <i class="fa fa-angle-down icon-current"></i>
+                            </a> 
+                        </div>
+                        <!-- /TopNav-->
+                        <!-- Logo -->
+                        <div class="logo pull-left">
+                            <h4>
+                                <a href="index.html">
+                                <img class="logo-color" src="img/logos/DC_Logo_No_Title.png" alt="gallaxy" width="70" height="70">
+                                Deadly Connections
+                                </a>
+                            </h4>
+                        </div>
+                        <!-- /Logo -->
+                        <!-- Mobile Menu -->
+                        <div class="mobile navbar-header">
+                            <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
+                            <i class="fa fa-bars fa-2x"></i>
+                            </a> 
+                        </div>
+                        <!-- /Mobile Menu -->
+                        <!-- Menu Start -->
+                        <nav class="collapse navbar-collapse menu">
+                            <ul class="nav navbar-nav sf-menu">
+                                <li>
+                                    <a id="current" href="index.html">
+                                    Home
+                                    <span class="sf-sub-indicator">
+                                    <!-- <i class="fa fa-angle-down "></i> -->
+                                    </span>
+                                    </a>
+                                    <!--
+                                    <ul>
+                                        <li><a href="index.html" class="sf-with-ul">Home </a></li>
+                                        <li><a href="index-2.html" class="sf-with-ul">Home 2</a></li>
+                                        <li><a href="index-shop.html" class="sf-with-ul">Home Shop</a></li>
+                                    </ul>
+                                    -->
+                                </li>
+                                <li>
+                                    <a href="#" class="sf-with-ul">
+                                    About 
+                                    <span class="sf-sub-indicator">
+                                    <i class="fa fa-angle-down "></i>
+                                    </span>
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" class="sf-with-ul">Who we are</a></li>
+                                        <li><a href="#" class="sf-with-ul">What we do</a></li>
+                                        <li><a href="#" class="sf-with-ul">Vision</a></li>
+                                        <li><a href="#" class="sf-with-ul">Mission</a></li>
+                                        <li><a href="#" class="sf-with-ul">Programs</a></li>
+                                        <li><a href="#" class="sf-with-ul">Support and Assistance</a></li>
+                                        <li><a href="#" class="sf-with-ul">Case Studies</a></li>
+                                        <!--
+                                        <li>
+                                            <a href="#" class="sf-with-ul"> 
+                                            Third Level Menu 
+                                            <span class="sf-sub-indicator pull-right">
+                                            <i class="fa fa-angle-right "></i>
+                                            </span>
+                                            </a>
+                                            <ul>
+                                                <li><a href="#" class="sf-with-ul">Menu Item</a></li>
+                                                <li><a href="#" class="sf-with-ul">Menu Item</a></li>
+                                                <li><a href="#" class="sf-with-ul">Menu Item</a></li>
+                                            </ul>
+                                        </li>
+                                        -->
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="sf-with-ul">
+                                    Services 
+                                    <span class="sf-sub-indicator">
+                                    <i class="fa fa-angle-down "></i>
+                                    </span>
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" class="sf-with-ul">Consultancy Services</a></li>
+                                        <li><a href="#" class="sf-with-ul">Community Services</a></li>
+                                    </ul>
+                                </li>               
+                                <li>
+                                    <a href="#" class="sf-with-ul">
+                                    Projects 
+                                    <span class="sf-sub-indicator">
+                                    <i class="fa fa-angle-down "></i>
+                                    </span>
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" class="sf-with-ul">CDARP (Cultural Diversion and Reintegration Pathway)</a></li>
+                                        <li><a href="#" class="sf-with-ul">Street Smart</a></li>
+                                        <li><a href="#" class="sf-with-ul">Deadly Families</a></li>
+                                        <li><a href="#" class="sf-with-ul">Deadly JARJUMS</a></li>
+                                    </ul>
+                                </li>                                   
+                                <li>
+                                    <a href="#" class="sf-with-ul">
+                                    Media 
+                                    <span class="sf-sub-indicator">
+                                    <i class="fa fa-angle-down "></i>
+                                    </span>
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" class="sf-with-ul">Video Link</a></li>
+                                        <li><a href="#" class="sf-with-ul">Written articles</a></li>
+                                    </ul>
+                                </li>                                  
+                                <li>
+                                    <a href="#" class="sf-with-ul">
+                                    How you can help? 
+                                    <span class="sf-sub-indicator">
+                                    <i class="fa fa-angle-down "></i>
+                                    </span>
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" class="sf-with-ul">Donate</a></li>
+                                        <li><a href="#" class="sf-with-ul">Volunteer</a></li>
+                                        <li><a href="#" class="sf-with-ul">Partnerships</a></li>
+                                        <li><a href="#" class="sf-with-ul">Fundraising</a></li>
+                                        <li><a href="#" class="sf-with-ul">Accomplices</a></li>
+                                    </ul>
+                                </li> 
+                                <li>
+                                    <a href="#" class="sf-with-ul">
+                                    Resources
+                                    <span class="sf-sub-indicator">
+                                    <i class="fa fa-angle-down "></i>
+                                    </span>
+                                    </a>
+                                    <ul>
+                                        <li><a href="#" class="sf-with-ul">Referral Form</a></li>
+                                    </ul>
+                                </li> 
+                                <li>
+                                    <a href="#">
+                                    Contact
+                                    <span class="sf-sub-indicator">
+                                    </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- /Menu --> 
+                    </div>
+                </div>
+                <!-- /Main Header -->
+            </header>
+            <!-- /Header --> 
+            <!-- Main Section -->
+            <section id="main">
+                <!-- Slider -->
+                <div class="fullwidthbanner-container tp-banner-container">
+                    <div class="fullwidthbanner rslider tp-banner">
+                        <ul>
+                            <!-- THE FIRST SLIDE -->
+                            <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-thumb="homeslider_thumb2.jpg" data-delay="10000"  data-saveperformance="on">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png"  alt="laptopmockup_sliderdy" data-lazyload="img/slider/IMG_0212.jpg" data-bgposition="right top" data-kenburns="on" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+                                <!-- LAYERS -->
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption customin fadeout rs-parallaxlevel-10"
+                                    data-x="783"
+                                    data-y="146" 
+                                    data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="300"
+                                    data-start="2700"
+                                    data-easing="Power3.easeInOut"
+                                    data-elementdelay="0.1"
+                                    data-endelementdelay="0.1"
+                                    data-endspeed="300"
+                                    style="z-index: 2;"><img src="img/dummy.png" alt="" data-lazyload="img/redbg_big.png">
+                                </div>
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption light_heavy_50 customin fadeout tp-resizeme rs-parallaxlevel-10"
+                                    data-x="797"
+                                    data-y="154" 
+                                    data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                                    data-speed="300"
+                                    data-start="2850"
+                                    data-easing="Power3.easeInOut"
+                                    data-splitin="none"
+                                    data-splitout="none"
+                                    data-elementdelay="0.1"
+                                    data-endelementdelay="0.1"
+                                    data-endspeed="300"
+                                    style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Connections
+                                </div>
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption black_heavy_70 skewfromleftshort fadeout tp-resizeme rs-parallaxlevel-10"
+                                    data-x="550"
+                                    data-y="83" 
+                                    data-speed="500"
+                                    data-start="2400"
+                                    data-easing="Power3.easeInOut"
+                                    data-splitin="chars"
+                                    data-splitout="none"
+                                    data-elementdelay="0.1"
+                                    data-endelementdelay="0.1"
+                                    data-endspeed="300"
+                                    style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Deadly
+                                </div>
+                            </li>
+                            <!-- /THE FIRST SLIDE -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- Slider --> 
+            <!-- Modal -->
+            <section id="modals">
+                <!-- Login Modal -->
+                <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="form-signin-heading modal-title" id="myModalLabel">Login</h2>
+                            </div>
+                            <form method="post" id="login">
+                                <div class="modal-body">
+                                    <fieldset>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <input class="form-control" id="username" name="username" type="text" placeholder="Username" value="" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <input class="form-control" type="email" id="email" name="email" placeholder="Email" value="" required>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="password-recovery.html" class="pull-left">(Lost Password?)</a>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-color">Login</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Logan Modal -->
+                <!-- Registration Modal -->
+                <div class="modal register fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h2 class="form-signin-heading modal-title" id="registrationModalLabel">Create a new account</h2>
+                        </div>
+                        <form method="post" id="registration">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-6">
+                                                <input type="text" value="" class="form-control" placeholder="First Name">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" value="" class="form-control" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input type="text" value="" class="form-control" placeholder="E-mail Address">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-6">
+                                                <input type="password" value="" class="form-control" placeholder="Password">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="password" value="" class="form-control" placeholder="Re-enter Password">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-color">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Registration Modal -->
+            </section>
+            <!-- Scroll To Top --> 
+            <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- /Wrap -->
+        <!-- The Scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-migrate-1.0.0.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/revolution-slider/js/jquery.themepunch.plugins.min.js"></script> 
+        <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="js/jquery.parallax.js"></script>
+        <script src="js/jquery.wait.js"></script>
+        <script src="js/fappear.js"></script> 
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/superfish.js"></script>
+        <script src="js/tweetMachine.js"></script>
+        <script src="js/tytabs.js"></script>
+        <script src="js/jquery.gmap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/jflickrfeed.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
+
