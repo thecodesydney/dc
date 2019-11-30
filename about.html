@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<!--[if IE 8]>          <html class="ie ie8"> <![endif]-->
-<!--[if IE 9]>          <html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->  
 <html> 
 	<!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>About Us | Gallaxy Responsive HTML5/CSS3 Template | FIFO THEMES</title>
-        <meta name="description" content="Gallaxy Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
-        <meta name="author" content="FIFOTHEMES.COM">
+        <title>Contact | Deadly Connections</title>
+        <meta name="description" content="Deadly Connections Community and Justice Services">
+        <meta name="author" content="www.code.sydney">
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Google Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,700,800,900' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Raleway:100,200,300,700,800,900' rel='stylesheet' type='text/css'>
         <!-- Library CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-theme.css">
@@ -25,23 +22,11 @@
         <!-- Theme CSS -->
         <link rel="stylesheet" href="css/style.css">
         <!-- Skin -->
-        <link rel="stylesheet" href="css/colors/green.css" class="colors">
+        <link rel="stylesheet" href="css/colors/yellow.css" class="colors">
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="css/theme-responsive.css">
         <!-- Favicons -->
-        <link rel="shortcut icon" href="img/ico/favicon.ico">
-        <link rel="apple-touch-icon" href="img/ico/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-touch-icon-72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-touch-icon-114.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-touch-icon-144.png">
-        <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
-        <!--[if IE]>
-        <link rel="stylesheet" href="css/ie.css">
-        <![endif]-->
+        <link rel="shortcut icon" href="img/ico/DC_Favicon.png">
     </head>
     <body class="home">
         <div class="page-mask">
@@ -59,17 +44,16 @@
                         <div class="container">
                             <div class="pull-left">
                                 <ul class="social pull-left">
-                                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li class="rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    <li class="linkedin"><a href="https://au.linkedin.com/company/deadly-connections-community-justice-services" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="facebook"><a href="https://www.facebook.com/deadlyconnections/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="instagram"><a href="https://www.instagram.com/deadlyconnections/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                    <li class="twitter"><a href="https://twitter.com/deadlyccajs" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 </ul>
                             </div>
                             <div class="phone-login pull-right">
-                                <a><i class="fa fa-phone"></i> Call Us : +880 111-111-111</a>
-                                <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-sign-in"></i> Login</a>
-                                <a href="#" data-toggle="modal" data-target="#registrationModal"><i class="fa fa-edit"></i> Registration</a>
+                                <button data-target="#myModal" data-toggle="modal" class="btn push-top push-bottom btn-color">
+                                    Donate
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -87,11 +71,12 @@
                         <!-- /TopNav-->
                         <!-- Logo -->
                         <div class="logo pull-left">
-                            <h1>
+                            <h4>
                                 <a href="index.html">
-                                <img class="logo-color" src="img/logos/logo_green.png" alt="gallaxy" width="160" height="60">
+                                <img class="logo-color" src="img/logos/DC_Logo_No_Title.png" alt="gallaxy" width="70" height="70">
+                                <font color="black">Deadly Connections</font>
                                 </a>
-                            </h1>
+                            </h4>
                         </div>
                         <!-- /Logo -->
                         <!-- Mobile Menu -->
@@ -105,178 +90,45 @@
                         <nav class="collapse navbar-collapse menu">
                             <ul class="nav navbar-nav sf-menu">
                                 <li>
-                                    <a href="#">
+                                    <a id="current" href="index.html">
                                     Home
                                     <span class="sf-sub-indicator">
-                                    <i class="fa fa-angle-down "></i>
+                                    <!-- <i class="fa fa-angle-down "></i> -->
                                     </span>
                                     </a>
+                                    <!--
                                     <ul>
                                         <li><a href="index.html" class="sf-with-ul">Home </a></li>
                                         <li><a href="index-2.html" class="sf-with-ul">Home 2</a></li>
                                         <li><a href="index-shop.html" class="sf-with-ul">Home Shop</a></li>
                                     </ul>
+                                    -->
                                 </li>
                                 <li>
                                     <a href="#" class="sf-with-ul">
-                                    Features 
+                                    About 
                                     <span class="sf-sub-indicator">
                                     <i class="fa fa-angle-down "></i>
                                     </span>
                                     </a>
                                     <ul>
-                                        <li><a href="shortcodes.html" class="sf-with-ul">Shortcodes</a></li>
-                                        <li><a href="components.html" class="sf-with-ul">Components</a></li>
-                                        <li><a href="icons.html" class="sf-with-ul">Icons</a></li>
-                                        <li><a href="columns.html" class="sf-with-ul">Columns</a></li>
-                                        <li><a href="pricing-table.html" class="sf-with-ul">Pricing Tables</a></li>
-                                        <li>
-                                            <a href="#" class="sf-with-ul"> 
-                                            Third Level Menu 
-                                            <span class="sf-sub-indicator pull-right">
-                                            <i class="fa fa-angle-right "></i>
-                                            </span>
-                                            </a>
-                                            <ul>
-                                                <li><a href="#" class="sf-with-ul">Menu Item</a></li>
-                                                <li><a href="#" class="sf-with-ul">Menu Item</a></li>
-                                                <li><a href="#" class="sf-with-ul">Menu Item</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="about.html" class="sf-with-ul">About us</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#" class="sf-with-ul">
-                                    Shop 
+                                    Projects 
                                     <span class="sf-sub-indicator">
                                     <i class="fa fa-angle-down "></i>
                                     </span>
                                     </a>
                                     <ul>
-                                        <li>
-                                            <a href="#" class="sf-with-ul"> 
-                                            Products
-                                            <span class="sf-sub-indicator pull-right">
-                                            <i class="fa fa-angle-right "></i>
-                                            </span>
-                                            </a>
-                                            <ul>
-                                                <li><a href="shop.html" class="sf-with-ul">Products</a></li>
-                                                <li><a href="shop-left-sidebar.html" class="sf-with-ul">Left Sidebar Products</a></li>
-                                                <li><a href="shop-right-sidebar.html" class="sf-with-ul">Right Sidebar Products</a></li>
-                                            </ul>
-                                        </li>                                        
-                                        <li><a href="product-view.html" class="sf-with-ul">Product View</a></li>
-                                        <li><a href="shoping-cart.html" class="sf-with-ul">Shoping Cart</a></li>
-                                        <li><a href="checkout.html" class="sf-with-ul">Proceed to Checkout</a></li>
-                                        <li>
-                                            <a href="#" class="sf-with-ul"> 
-                                            My Account
-                                            <span class="sf-sub-indicator pull-right">
-                                            <i class="fa fa-angle-right "></i>
-                                            </span>
-                                            </a>
-                                            <ul>
-                                                <li><a href="my-account.html" class="sf-with-ul">My Account</a></li>
-                                                <li><a href="my-account-information.html" class="sf-with-ul">My Account Information</a></li>
-                                                <li><a href="my-address.html" class="sf-with-ul">My Address</a></li>
-                                                <li><a href="my-orders.html" class="sf-with-ul">My Orders</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="confirmation.html" class="sf-with-ul">Confirmation Page</a></li>
-                                        <li><a href="password-recovery.html" class="sf-with-ul">Password Recovery</a></li>
+                                        <li><a href="#" class="sf-with-ul">CDARP (Cultural Diversion and Reintegration Pathway)</a></li>
+                                        <li><a href="#" class="sf-with-ul">Street Smart</a></li>
+                                        <li><a href="#" class="sf-with-ul">Deadly Families</a></li>
+                                        <li><a href="#" class="sf-with-ul">Deadly JARJUMS</a></li>
                                     </ul>
-                                </li>
-                                <li>
-                                    <a id="current" href="#" class="sf-with-ul">
-                                    Pages
-                                    <span class="sf-sub-indicator">
-                                    <i class="fa fa-angle-down "></i>
-                                    </span>
-                                    </a>
-                                    <ul>
-                                        <li>
-                                            <a href="#" class="sf-with-ul">
-                                            About
-                                            <span class="sf-sub-indicator pull-right">
-                                            <i class="fa fa-angle-right"></i>
-                                            </span>
-                                            </a>
-                                            <ul>
-                                                <li><a href="about-me.html" class="sf-with-ul">About Me</a></li>
-                                                <li><a href="about.html" class="sf-with-ul">About Us</a></li>
-                                                <li><a href="about-2.html" class="sf-with-ul">About Us Option 1</a></li>
-                                                <li><a href="about-3.html" class="sf-with-ul">About Us Option 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="sf-with-ul">
-                                            Services
-                                            <span class="sf-sub-indicator pull-right">
-                                            <i class="fa fa-angle-right"></i>
-                                            </span>
-                                            </a>
-                                            <ul>
-                                                <li><a href="services.html" class="sf-with-ul">Services</a></li>
-                                                <li><a href="services-2.html" class="sf-with-ul">Services Option</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="jobs.html" class="sf-with-ul">Careers</a></li>
-                                        <li><a href="testimonials.html" class="sf-with-ul">Testimonials</a></li>
-                                        <li><a href="full-width.html" class="sf-with-ul">Full Width Page</a></li>
-                                        <li><a href="page-left-sidebar.html" class="sf-with-ul">Left Sidebar</a></li>
-                                        <li><a href="page-right-sidebar.html" class="sf-with-ul">Right Sidebar</a></li>
-                                        <li><a href="page-left-navigation.html" class="sf-with-ul">Left Navigation</a></li>
-                                        <li><a href="page-right-navigation.html" class="sf-with-ul">Right Navigation</a></li>
-                                        <li><a href="page-login.html" class="sf-with-ul">Login / Register</a></li>
-                                        <li><a href="page-coming-soon.html" class="sf-with-ul">Coming Soon</a></li>
-                                        <li><a href="page-maintenance.html" class="sf-with-ul">Maintenance</a></li>
-                                        <li>
-                                            <a href="#" class="sf-with-ul">
-                                            FAQ
-                                            <span class="sf-sub-indicator pull-right">
-                                            <i class="fa fa-angle-right "></i>
-                                            </span>
-                                            </a>
-                                            <ul>
-                                                <li><a href="faq.html" class="sf-with-ul">FAQ</a></li>
-                                                <li><a href="faq-2.html" class="sf-with-ul">FAQ Option</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="page-404.html" class="sf-with-ul">404 Page</a></li>
-                                        <li><a href="sitemap.html" class="sf-with-ul">Sitemap</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="sf-with-ul">
-                                    Portfolio
-                                    <span class="sf-sub-indicator">
-                                    <i class="fa fa-angle-down "></i>
-                                    </span>
-                                    </a>
-                                    <ul>
-                                        <li><a href="portfolio-two.html" class="sf-with-ul">2 Column</a></li>
-                                        <li><a href="portfolio-three.html" class="sf-with-ul">3 Column</a></li>
-                                        <li><a href="portfolio-four.html" class="sf-with-ul">4 Column</a></li>
-                                        <li><a href="portfolio-full-width.html" class="sf-with-ul">Full Width</a></li>
-                                        <li><a href="portfolio-single.html" class="sf-with-ul">Single Item Page</a></li>
-                                        <li><a href="portfolio-single-big.html" class="sf-with-ul">Single Large Item Page</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#" class="sf-with-ul">
-                                    Blog
-                                    <span class="sf-sub-indicator">
-                                    <i class="fa fa-angle-down "></i>
-                                    </span>
-                                    </a>
-                                    <ul>
-                                        <li><a href="blog-left-sidebar.html" class="sf-with-ul">Left Sidebar Blog</a></li>
-                                        <li><a href="blog-right-sidebar.html" class="sf-with-ul">Right Sidebar Blog</a></li>
-                                        <li><a href="blog-full-width.html" class="sf-with-ul">Blog Full Width</a></li>
-                                        <li><a href="single-post.html" class="sf-with-ul">Single Post</a></li>
-                                    </ul>
-                                </li>
+                                </li>     
                                 <li>
                                     <a href="#">
                                     Contact
@@ -286,8 +138,6 @@
                                     </a>
                                     <ul>
                                         <li><a href="contact.html" class="sf-with-ul">Contact</a></li>
-                                        <li><a href="contact-2.html" class="sf-with-ul">Contact Option</a></li>
-                                        <li><a href="contact-3.html" class="sf-with-ul">Contact Option 2</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -312,7 +162,6 @@
                                         <ul>
                                             <li>You are Now on:</li>
                                             <li><a href="index.html">Home</a></li>
-                                            <li><a href="#">Page</a></li>
                                             <li>About Us</li>
                                         </ul>
                                     </div>
@@ -327,46 +176,46 @@
                         <div class="row">
                             <!-- Left Section -->
                             <div class="posts-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <img src="img/about.jpg" alt="about">
+                                <img src="img/helpinghands.png" alt="about">
                             </div>
                             <!-- /Left Section -->
                             <!-- welcome Section -->
                             <div class="welcome col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <h2>Welcome to Gallaxy Solutions</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                    when an unknown printer took a galley of type and scrambled it to make a type 
-                                    specimen book. 
+                                <h2>Welcome to Deadly Connections</h2>
+                                <p>As an Aboriginal controlled organisation, our roots lie within the communities we work with. With a lifetime of lived experience in Aboriginal communities, we provide the right type of support when needed.
                                 </p>
                                 <div class="content-box-about ch-item">
                                     <div class="content-box-about-icon">
                                         <div class="ch-info">
-                                            <div class="ch-info-front ch-img-1"><i class="fa fa-cloud"></i></div>
+                                            <div class="ch-info-front ch-img-1"><i class="fa fa-heart"></i></div>
                                             <div class="ch-info-back">
                                                 <i class="fa fa-cloud"></i>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="content-box-about-info">
-                                        <h3>Responsive Layout</h3>
+                                        <h3>Vision</h3>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
+                                            Deadly Connection’s vision is to create change, promote healing, empower and improve outcomes for First Nations people, families and communities, particularly those affected by the out of home care/justice system.
+                                            We will achieve this through the provision of Aboriginal-led, innovative, culturally competent solutions that that provide opportunities, fosters connections, drives individual, community, social and systematic change and addresses the social and emotional well-being of First Nations people to disrupt the perpetual cycles of incarceration and child protection interventions.
                                         </p>
                                     </div>
                                 </div>
+                                <br/>
                                 <div class="content-box-about ch-item">
                                     <div class="content-box-about-icon">
                                         <div class="ch-info">
-                                            <div class="ch-info-front ch-img-1"><i class="fa fa-flask"></i></div>
+                                            <div class="ch-info-front ch-img-1"><i class="fa fa-heart"></i></div>
                                             <div class="ch-info-back">
                                                 <i class="fa fa-flask"></i>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="content-box-about-info">
-                                        <h3>Responsive Layout</h3>
+                                        <h3>Mission</h3>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of Lorem the printing and typesettings.
+                                            Our Mission is to raise awareness and address Aboriginal over-representation across the justice and out of home care system
+                                            disrupt the inter-generational cycles of disadvantage, oppression, incarceration, addiction, child protection intervention, grief, loss, trauma of First Nations people, families and communities                                        
                                         </p>
                                     </div>
                                 </div>
@@ -383,7 +232,7 @@
                             <div class="col-md-6 col-md-offset-3">
                                 <div class="star-divider">
                                     <div class="star-divider-icon">
-                                        <i class=" fa fa-star"></i>
+                                        <i class=" fa fa-circle"></i>
                                     </div>
                                 </div>
                             </div>
@@ -394,136 +243,82 @@
                 <!-- choose-us --> 
                 <div class="choose-us container">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <h2 class="text-center">Why Choose Us</h2>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h2 class="text-center">Learn more</h2>
                             <!-- accordin -->
                             <div class="accordionMod panel-group">
                                 <div class="accordion-item">
-                                    <h4 class="accordion-toggle">Best Quality Services</h4>
+                                    <h4 class="accordion-toggle">Who we are</h4>
                                     <section class="accordion-inner panel-body">
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                Deadly Connections Community & Justice Services Inc (Deadly Connections) was established in September 2018 as a direct community response to address the over-representation of Aboriginal people, families and communities in both the out of home care (OOHC) and justice system. 
+                                                Deadly Connections is a specialist, Aboriginal managed and controlled Not For Profit (NFP) charity organisation, disrupting the inter-generational cycle of disadvantage, perpetual trauma, out of home care (OOHC) and justice system involvement of Australia’s First Nations people through the provision of Aboriginal-led, innovative, culturally competent solutions that creates opportunities, fosters connections, drives individual, social and systematic change.
                                         </p>
                                     </section>
                                 </div>
                                 <div class="accordion-item">
-                                    <h4 class="accordion-toggle">Neat & Clean Coding Structures</h4>
+                                    <h4 class="accordion-toggle">What we do</h4>
                                     <section class="accordion-inner panel-body">
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Our approach seeks to decolonise current structured systems, create opportunities for choice, alleviate poverty, disadvantage and distress associated with the multiple, complex issues/trauma Aboriginal people face, particularly those effected by the justice/OOHC system.
+                                            Our service adopts a life course approach, is embedded in culture and healing, embraces our decolonising model and provides First Nations led, innovative, holistic, individualised, intensive, localised solutions that are based on community needs, culturally responsive models and healing centred engagement strategies.
+                                            Deadly Connections is built on the foundation of self-determination - that the voices of First Nations people and communities must inform solutions for matters that affect us. Deadly Connections adopts a culturally responsive approach that will empower First Nations people to better shape our own futures, to lead our own development, provide opportunities, empower, inspire and motivate families and communities.                                        
                                         </p>
                                     </section>
                                 </div>
                                 <div class="accordion-item">
-                                    <h4 class="accordion-toggle">Premium Quality Design</h4>
+                                    <h4 class="accordion-toggle">Who we serve</h4>
                                     <section class="accordion-inner panel-body">
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        </p>
-                                    </section>
-                                </div>
-                                <div class="accordion-item">
-                                    <h4 class="accordion-toggle">24/7 Phone Support</h4>
-                                    <section class="accordion-inner panel-body">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            Deadly Connections helps minimise the cycle of disadvantage, perpetual trauma, out of home care (OOHC) and justice system involvement of Australia’s First Nations people.
                                         </p>
                                     </section>
                                 </div>
                             </div>
                             <!-- /accordin -->
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="skills">
-                                <h2 class="text-center">Our Expertise</h2>
-                                <!-- Progress Bars -->
-                                <div class="skills-wrap">
-                                    <!-- New progress bars -->
-                                    <div class="skillbar clearfix " data-percent="80%">
-                                        <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
-                                        <div class="skillbar-bar" style="background: #e67e22;"></div>
-                                        <div class="skill-bar-percent">80%</div>
-                                    </div>
-                                    <!-- /Skill Bar -->
-                                    <div class="skillbar clearfix " data-percent="70%">
-                                        <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-                                        <div class="skillbar-bar" style="background: #3498db;"></div>
-                                        <div class="skill-bar-percent">70%</div>
-                                    </div>
-                                    <!-- /Skill Bar -->
-                                    <div class="skillbar clearfix " data-percent="60%">
-                                        <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
-                                        <div class="skillbar-bar" style="background: #2c3e50;"></div>
-                                        <div class="skill-bar-percent">60%</div>
-                                    </div>
-                                    <!-- /Skill Bar -->
-                                    <div class="skillbar clearfix " data-percent="75%">
-                                        <div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
-                                        <div class="skillbar-bar" style="background: #5a68a5;"></div>
-                                        <div class="skill-bar-percent">75%</div>
-                                    </div>
-                                    <!-- /Skill Bar -->
-                                    <div class="skillbar clearfix " data-percent="85%">
-                                        <div class="skillbar-title" style="background: #333333;"><span>Wordpress</span></div>
-                                        <div class="skillbar-bar" style="background: #525252;"></div>
-                                        <div class="skill-bar-percent">85%</div>
-                                    </div>
-                                    <!-- /Skill Bar -->
-                                    <div class="skillbar clearfix " data-percent="90%">
-                                        <div class="skillbar-title" style="background: #27ae60;"><span>SEO</span></div>
-                                        <div class="skillbar-bar" style="background: #2ecc71;"></div>
-                                        <div class="skill-bar-percent">90%</div>
-                                    </div>
-                                    <!-- /Skill Bar -->
-                                    <!-- /New progress bars -->
-                                </div>
-                                <!-- /Progress Bars -->
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!-- /choose-us -->   
-                <!-- Star -->
+                <!-- Star-->
                 <div class="star">
                     <div class="container">
                         <div class="row text-center">
                             <div class="col-md-6 col-md-offset-3">
                                 <div class="star-divider">
                                     <div class="star-divider-icon">
-                                        <i class=" fa fa-star"></i>
+                                        <i class=" fa fa-circle"></i>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- /Star --> 
+                <!-- /Star-->  
                 <!-- Meet The Team --> 
                 <div class="meet-team container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 meet">
                             <h2 class="title-team">Meet The Team</h2>
-                            <h4 class="text-center">Meet with out wonderful and professional team who is behing to implete this template!</h4>
+                            <h4 class="text-center">Meet our wonderful and dedicated team at Deadly Connections</h4>
                             <div class="row team margin-top40">
                                 <!-- item 1 -->
                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item animate_afc d1">
                                     <div class="team-member">
                                         <div class="team-member-holder">
                                             <div class="team-member-image">
-                                                <img alt="" src="img/team/team-member-1.jpg">
+                                                <img alt="" src="img/team/carly.png">
                                                 <div class="team-member-links">
                                                     <div class="team-member-links-list">
-                                                        <a target="_blank" class="facebook team-member-links-item" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a target="_blank" class="twitter team-member-links-item" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="fa fa-linkedin"></i></a>
+                                                        <a target="_blank" class="linkedin team-member-links-item" href="https://www.linkedin.com/in/carly-stanley-9a796710b/" target="_blank"><i class="fa fa-linkedin"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="team-member-meta">
-                                                <h4 class="team-member-name">Monzurul Haque</h4>
-                                                <div class="team-member-role">CEO</div>
+                                                <h4 class="team-member-name">Carly Stanley</h4>
+                                                <div class="team-member-role">CEO and Founder</div>
                                                 <div class="team-member-description">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                                    <p>Carly is a proud Wiradjuri Woman, also born and raised on Gadigal land.  Carly is the CEO and Founder of Deadly Connections Community & Justice Services. Carly has her own lived experience, growing up in a large Aboriginal family with their own challenges. Carly’s earliest memories are of her Grandmother taking her to different correctional centres to visit her family members. Carly has extensive experience working within the community services sector and the criminal justice space, with post graduate qualifications in Criminology.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -535,370 +330,92 @@
                                     <div class="team-member">
                                         <div class="team-member-holder">
                                             <div class="team-member-image">
-                                                <img alt="" src="img/team/team-member-2.jpg">
+                                                <img alt="" src="img/team/keenan.png">
                                                 <div class="team-member-links">
                                                     <div class="team-member-links-list">
-                                                        <a target="_blank" class="facebook team-member-links-item" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a target="_blank" class="twitter team-member-links-item" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="fa fa-linkedin"></i></a>
+                                                        <a target="_blank" class="linkedin team-member-links-item" href="https://au.linkedin.com/in/keenan-mundine-68296810b" target="_blank"><i class="fa fa-linkedin"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="team-member-meta">
-                                                <h4 class="team-member-name">Jessica Alba</h4>
-                                                <div class="team-member-role">CMO</div>
+                                                <h4 class="team-member-name">Keenan Mundine</h4>
+                                                <div class="team-member-role">Co-Founder and Ambassador</div>
                                                 <div class="team-member-description">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
+                                                    <p>
+                                                            Keenan Mundine is the Co-Founder and Ambassador for Deadly Connections. Keenan is a proud First Nations man with connections to the Biripi Nation of NSW through his mother who is from Taree and ties to the Wakka Wakka Nation in Queensland through his Father who is from Cherbourg.
+                                                            <br/>
+                                                            <br/>
+                                                            Keenan is the youngest of three boys, born and raised on Gadigal land - Keenan grew up in Redfern, notoriously known as “The Block”. Keenan had a rough start to his childhood after losing both parents at a young age, being placed in care, separated from his siblings and growing up unsupported with negative role modelling.               
+                                                            <br/>
+                                                            <br/>
+                                                            Keenan faced his own difficulties in life and made some poor decisions in his adolescence which resulted to his lengthy involvement with the justice system. Keenan found his passion in giving back to his community and working with people who have similar experiences to him.
+                                                            <br/>
+                                                            <br/>
+                                                            Keenan’s journey inspired him and his wife to create a unique, community led solution and response to the current mass incarceration crisis of First Nations people. With the combined practical experience of Keenan’s lived experience and his wife’s professional skills and academic qualifications, as First Nations people they are committed to changing the narrative for their mob and communities.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- /item 2 -->
-                                <!-- item 3 -->
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item animate_afc d3">
-                                    <div class="team-member">
-                                        <div class="team-member-holder">
-                                            <div class="team-member-image">
-                                                <img alt="" src="img/team/team-member-3.jpg">
-                                                <div class="team-member-links">
-                                                    <div class="team-member-links-list">
-                                                        <a target="_blank" class="facebook team-member-links-item" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a target="_blank" class="twitter team-member-links-item" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="fa fa-linkedin"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="team-member-meta">
-                                                <h4 class="team-member-name">Emma Watson</h4>
-                                                <div class="team-member-role">CFO</div>
-                                                <div class="team-member-description">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /item 3 -->
-                                <!-- item 4 -->
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item animate_afc d4">
-                                    <div class="team-member">
-                                        <div class="team-member-holder">
-                                            <div class="team-member-image">
-                                                <img alt="" src="img/team/team-member-4.jpg">
-                                                <div class="team-member-links">
-                                                    <div class="team-member-links-list">
-                                                        <a target="_blank" class="facebook team-member-links-item" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a target="_blank" class="twitter team-member-links-item" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a target="_blank" class="linkedin team-member-links-item" href="#"><i class="fa fa-linkedin"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="team-member-meta">
-                                                <h4 class="team-member-name">Atiar Rahman</h4>
-                                                <div class="team-member-role">CTO</div>
-                                                <div class="team-member-description">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /item 4 -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- /Meet The Team --> 
-                <!-- Star --> 
-                <div class="star">
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-md-6 col-md-offset-3">
-                                <div class="star-divider  margin-topminus30">
-                                    <div class="star-divider-icon">
-                                        <i class=" fa fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Star --> 
-                <!-- Tab & Testimonials Widget -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <!-- Tab -->
-                            <h2 class="title-tab">How We Work</h2>
-                            <div class="widget tabs animate_afc">
-                                <div id="horizontal-tabs">
-                                    <ul class="tabs">
-                                        <li id="tab1" class="current">Design</li>
-                                        <li id="tab2">Development</li>
-                                        <li id="tab3">Testing</li>
-                                    </ul>
-                                    <div class="contents">
-                                        <div class="tabscontent" id="content1" style="display: block;">
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                            </p>
-                                        </div>
-                                        <div class="tabscontent" id="content2">
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                            </p>
-                                        </div>
-                                        <div class="tabscontent" id="content3">
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Tab -->
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <!-- Testimonials Widget -->
-                            <div class="row">
-                                <div class="testimonials widget">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="title-testimonial">
-                                            <h2 class="title-testimonials">Testimonials</h2>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <div id="testimonials-carousel" class="testimonials-carousel carousel slide animate_afc">
-                                        <div class="carousel-inner">
-                                            <div class="item active">
-                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                    <div class="testimonial item">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                                                        </p>
-                                                        <div class="testimonials-arrow">
-                                                        </div>
-                                                        <div class="author">
-                                                            <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-1.jpg"></div>
-                                                            <div class="testimonial-author-info">
-                                                                <a href="#"><span class="color">Monica Sing</span></a> FIFO Themes
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                    <div class="testimonial item">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                                                        </p>
-                                                        <div class="testimonials-arrow">
-                                                        </div>
-                                                        <div class="author">
-                                                            <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-2.jpg"></div>
-                                                            <div class="testimonial-author-info">
-                                                                <a href="#"><span class="color">Monzurul Haque</span></a> FIFO Themes
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                    <div class="testimonial item">
-                                                        <p>
-                                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
-                                                        </p>
-                                                        <div class="testimonials-arrow">
-                                                        </div>
-                                                        <div class="author">
-                                                            <div class="testimonial-image "><img alt="" src="img/testimonial/team-member-3.jpg"></div>
-                                                            <div class="testimonial-author-info">
-                                                                <a href="#"><span class="color">Carol Johansen</span></a> FIFO Themes
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /Testimonials Widget -->
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-                <!-- /Tab & Testimonials widget -->
-                <!-- Slogan -->
-                <div class="slogan margin-top100 bottom-pad-small">
-                    <div class="pattern-overlay">
-                        <div class="container">
-                            <div class="row">
-                                <div class="slogan-content">
-                                    <div class="col-lg-10 col-md-10">
-                                        <h2 class="slogan-title">Found a reason to work with us? Lets's start!</h2>
-                                    </div>
-                                    <div class="col-lg-2 col-md-2">
-                                        <div class="get-started">
-                                            <a class="btn-special btn-grey pull-right" href="#">BUY NOW</a>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Slogan -->                                                             
-                <!-- Our Clients -->
-                <div class="our-clients">
-                    <div class="container">
-                        <div class="row">
-                            <div class="client">
-                                <div class="client-logo">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="text-center">
-                                            <h2>Our Clients</h2>
-                                            <h4>
-                                                See some of our satisfied clients over the world.
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="clearfix"></div>
-                                        <div class="row text-center padding-top40">
-                                            <div id="client-carousel" class="client-carousel carousel slide">
-                                                <div class="carousel-inner">
-                                                    <div class="item active">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d1">
-                                                            <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/01.png"></a></div>
-                                                        </div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d2">
-                                                            <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/02.png"></a></div>
-                                                        </div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d3">
-                                                            <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/03.png"></a></div>
-                                                        </div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d4">
-                                                            <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/04.png"></a></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item">
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
-                                                            <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/04.png"></a></div>
-                                                        </div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
-                                                            <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/03.png"></a></div>
-                                                        </div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
-                                                            <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/02.png"></a></div>
-                                                        </div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
-                                                            <div class="item-inner"><a href="#"><img alt="Upportdash" src="img/clientslogo/01.png"></a></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="clients-title">
-                                            <h3 class="title">&nbsp;</h3>
-                                            <div class="carousel-controls pull-right">
-                                                <a class="prev" href="#client-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                                                <a class="next" href="#client-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Our Clients -->  
+                <!-- /Meet The Team -->                                                         
             </section>
             <!-- /Main Section -->
-            <!-- Footer Start -->
+            <!-- Footer -->
             <footer id="footer">
                 <div class="pattern-overlay">
-                    <!-- Footer Top Start -->
+                    <!-- Footer Top -->
                     <div class="footer-top">
                         <div class="container">
                             <div class="row">
-                                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
-                                    <h3 class="light">About</h3>
+                                <section class="col-lg-6 col-md-6 col-xs-12 col-sm-6 footer-four wow fadeIn">
+                                    <h6 class="light"><img src="img/aboriginalflag.png" alt="img1" height="43" width="60"/></a></h6>
                                     <p> 
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. 
+                                        We Acknowledge and pay respects to the First Nations People of Australia, the land in which we live and work.
+                                        We recognise the strength,resilience and capacity of Aboriginal people and pay respects to Elders past, present and emerging.
                                     </p>
                                 </section>
-                                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
-                                    <h3 class="light">Twitter Stream</h3>
+                                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two wow fadeIn">
+                                    <h3 class="light"></h3>
                                     <ul id="tweets">
                                     </ul>
                                 </section>
-                                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three wow fadeIn">
                                     <h3 class="light">Contact Us</h3>
                                     <ul class="contact-us">
                                         <li>
-                                            <i class="fa fa-map-marker"></i>
-                                            <p> 
-                                                <strong class="contact-pad">Address:</strong> 221 Baker Street<br> London <br>
-                                                United Kingdom
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-phone"></i>
-                                            <p><strong>Phone:</strong> +880 111-111-111</p>
-                                        </li>
-                                        <li>
                                             <i class="fa fa-envelope"></i>
-                                            <p><strong>Email:</strong><a href="mailto:email@demo.com">email@demo.com</a></p>
+                                            <p><strong>Email:</strong><a href="mailto:info@deadlyconnections.org.au?Subject=Enquiry" target="_blank">info@deadlyconnections.org.au</a></p>
                                         </li>
                                     </ul>
-                                </section>
-                                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
-                                    <h3 class="light">Subscribe</h3>
-                                    <p>
-                                        Subscribe to our email newsletter to receive our news, updates and awesome free files.
-                                    </p>
-                                    <form method="get" action="#">
-                                        <div class="input-group">
-                                            <input type="text" value="mail@example.com" onfocus="if(this.value=='mail@example.com')this.value='';" onblur="if(this.value=='')this.value='mail@example.com';" class="subscribe form-control">
-                                            <span class="input-group-btn">
-                                            <button class="btn subscribe-btn" type="button">Join</button>
-                                            </span>
-                                        </div>
-                                        <!-- /input-group -->
-                                    </form>
                                 </section>
                             </div>
                         </div>
                     </div>
-                    <!-- Footer Top End --> 
-                    <!-- Footer Bottom Start -->
+                    <!-- /Footer Top --> 
+                    <!-- Footer Bottom -->
                     <div class="footer-bottom">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
-                                    <p class="credits">&copy; Copyright 2018 by <a href="#">FIFOLAB</a>. All Rights Reserved. </p>
+                                    <p class="credits">&copy; Copyright 2020 by <a href="#">Deadly Connections Community and Justice Services</a></p>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
                                     <ul class="social social-icons-footer-bottom">
-                                        <li class="facebook"><a href="#" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                        <li class="twitter"><a href="#" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                        <li class="dribbble"><a href="#" data-toggle="tooltip" title="Dribble"><i class="fa fa-dribbble"></i></a></li>
-                                        <li class="linkedin"><a href="#" data-toggle="tooltip" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                                        <li class="rss"><a href="#" data-toggle="tooltip" title="Rss"><i class="fa fa-rss"></i></a></li>
+                                        <li class="linkedin"><a href="https://au.linkedin.com/company/deadly-connections-community-justice-services" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                        <li class="facebook"><a href="https://www.facebook.com/deadlyconnections/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="instagram"><a href="https://www.instagram.com/deadlyconnections/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                        <li class="twitter"><a href="https://twitter.com/deadlyccajs" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Footer Bottom End --> 
                     <!-- /Footer Bottom --> 
                 </div>
             </footer>
