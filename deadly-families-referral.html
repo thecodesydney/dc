@@ -226,89 +226,239 @@
                     <div class="container">
                         <div class="row">
                             <!-- Contact Form -->
-                            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="contact-form">
-                                <h2>Contact us</h2>
-                                <p>
-                                    Please feel free to drop us an email and expect a response within 24 hours.
-                                </p>
-                                <form data-bss-recipient="2d35c2db304db7121c9247ae51673c04" method="post" action="/">
-                                    <fieldset>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control" id="name" name="name" type="text" placeholder="Name" value="" required>
-                                            </div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control" type="email" id="email" name="email" placeholder="Email" value="" required>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <!--
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control" id="Website" name="website" type="text"  placeholder="Website" value="" required>
-                                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm- col-xs-12" id="contact-form">
+
+                                <form data-bss-recipient="cfb388d78c2b05003665814d45751a41" method="post" action="/">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                                            <div class="form-group">
+                                                <label id="name-label" for="name">Name</label>
+                                                <input
+                                                  type="text"
+                                                  name="name"
+                                                  id="name"
+                                                  class="form-control"
+                                                  placeholder="Enter your name"
+                                                  required
+                                                />
+                                              </div>
+                                              <div class="form-group">
+                                                <label id="email-label" for="email">Email</label>
+                                                <input
+                                                  type="email"
+                                                  name="email"
+                                                  id="email"
+                                                  class="form-control"
+                                                  placeholder="Enter your Email"
+                                                  required
+                                                />
+                                              </div>
+                                              <div class="form-group">
+                                                <label id="number-label" for="number"
+                                                  >Mobile<span class="clue"></label
+                                                >
+                                                <input
+                                                  type="number"
+                                                  name="mobile"
+                                                  id="number"
+                                                  class="form-control"
+                                                  placeholder="Enter your Mobile"
+                                                  required
+                                                />
+                                              </div>
+                                              <!--
+                                              <div class="form-group">
+                                                <p>Which option best describes your current role?</p>
+                                                <select id="dropdown" name="role" class="form-control" required>
+                                                  <option disabled selected value>Select current role</option>
+                                                  <option value="student">Student</option>
+                                                  <option value="job">Full Time Job</option>
+                                                  <option value="learner">Full Time Learner</option>
+                                                  <option value="preferNo">Prefer not to say</option>
+                                                  <option value="other">Other</option>
+                                                </select>
+                                              </div> -->
+                                              <h4>Eligibility Criteria</h4>
+                                              <p>
+                                              </p>
+
+                                              <div class="form-group">
+                                                <label> 
+                                                    <p>Mum/Dad with out of home care (Previous/Current) / Justice System Involvement</p>
+                                                </label>
+                                                &emsp;&emsp;
+                                                <label>
+                                                  <input
+                                                    name="Mum/Dad with out of home care (Previous/Current) / Justice System Involvement"
+                                                    value="Yes"
+                                                    type="radio"
+                                                    class="input-radio"
+                                                  />   Yes 
+                                                </label>
+                                                &emsp;
+                                                <label>
+                                                  <input
+                                                    name="Mum/Dad with out of home care (Previous/Current) / Justice System Involvement"
+                                                    value="No"
+                                                    type="radio"
+                                                    class="input-radio"
+                                                  />   No 
+                                                </label>
+                                              </div>
+
+                                              <div class="form-group">
+                                                <label> 
+                                                    <p>With at least one child 0-5 years old (or expecting within 4-6 weeks)</p>
+                                                </label>
+                                                &emsp;&emsp;
+                                                <label>
+                                                  <input
+                                                    name="With at least one child 0-5 years old (or expecting within 4-6 weeks)"
+                                                    value="Yes"
+                                                    type="radio"
+                                                    class="input-radio"
+                                                  />   Yes 
+                                                </label>
+                                                &emsp;
+                                                <label>
+                                                  <input
+                                                    name="With at least one child 0-5 years old (or expecting within 4-6 weeks)"
+                                                    value="No"
+                                                    type="radio"
+                                                    class="input-radio"
+                                                  />   No 
+                                                </label>
+                                              </div>
+
+                                              <!--  
+                                              <div class="form-group">
+                                                <p>
+                                                  What is your favorite feature of freeCodeCamp?
+                                                </p>
+                                                <select id="most-like" name="mostLike" class="form-control" required>
+                                                  <option disabled selected value>Select an option</option>
+                                                  <option value="challenges">Challenges</option>
+                                                  <option value="projects">Projects</option>
+                                                  <option value="community">Community</option>
+                                                  <option value="openSource">Open Source</option>
+                                                </select>
+                                              </div>
+                                          
+                                              <div class="form-group">
+                                                <p>
+                                                  What would you like to see improved?
+                                                  <span class="clue">(Check all that apply)</span>
+                                                </p>
+                                          
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="front-end-projects"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Front-end Projects</label
+                                                >
+                                                <label>
+                                                  <input
+                                                    name="prefer"
+                                                    value="back-end-projects"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Back-end Projects</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="data-visualization"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Data Visualization</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="challenges"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Challenges</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="open-source-community"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Open Source Community</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="gitter-help-rooms"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Gitter help rooms</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="videos"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Videos</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="city-meetups"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />City Meetups</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="wiki"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Wiki</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="forum"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Forum</label
+                                                >
+                                                <label
+                                                  ><input
+                                                    name="prefer"
+                                                    value="additional-courses"
+                                                    type="checkbox"
+                                                    class="input-checkbox"
+                                                  />Additional Courses</label
+                                                >
+                                              </div>
+                                          
+                                              <div class="form-group">
+                                                <p>Any comments or suggestions?</p>
+                                                <textarea
+                                                  id="comments"
+                                                  class="input-textarea"
+                                                  name="comment"
+                                                  placeholder="Enter your comment here..."
+                                                ></textarea>
+                                              </div>
                                             -->
-                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <input class="form-control" id="subject" name="subject" type="text"  placeholder="Subject" value="" required>
-                                            </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                <textarea class="form-control" id="text" name="text" rows="3" cols="40" placeholder="Message" required></textarea>
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                    <button class="btn btn-color submit pull-right" type="submit">Send</button>
-                                    <div class="success alert-success alert" style="display:none">Your message has been sent successfully.</div>
-                                    <div class="error alert-error alert" style="display:none">E-mail must be valid and message must be longer than 100 characters.</div>
-                                    <div class="clearfix">
                                     </div>
+                                    <button class="btn btn-color submit pull-right" type="submit">Submit</button>
                                 </form>
                                 <script src="js/smart-forms.min.js"></script>
                             </div>
                             <!-- /Contact Form -->
-                            <div class="col-lg-4 col-md-4 col-xs-12 col-sm-6">
-                                <div class="address widget">
-                                    <h3 class="title">Send us an email</h3>
-                                    <ul class="contact-us">
-                                        <!--
-                                        <li>
-                                            <i class="fa fa-map-marker"></i>
-                                            <p>
-                                                <strong class="contact-pad">Address:</strong> 1 Market Street<br> Sydney NSW 2000<br>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-phone"></i>
-                                            <p>
-                                                <strong>Phone:</strong> +61 430 123 456 
-                                            </p>
-                                        </li>
-                                        -->
-                                        <li>
-                                            <i class="fa fa-envelope"></i>
-                                            <p><strong>Email:</strong><a href="mailto:info@deadlyconnections.org.au?Subject=Enquiry" target="_blank">info@deadlyconnections.org.au</a></p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--
-                                <div class="contact-info widget">
-                                    <h3 class="title">Business Hours</h3>
-                                    <ul class="business-hour">
-                                        <li><i class="fa fa-clock-o"> </i>Monday - Friday 9am to 5pm </li>
-                                        <li><i class="fa fa-clock-o"> </i>Saturday - 9am to 2pm</li>
-                                        <li><i class="fa fa-times-circle-o"> </i>Sunday - Closed</li>
-                                    </ul>
-                                </div>
-                                -->
-                                <div class="follow widget">
-                                    <h3 class="title">Follow Us</h3>
-                                    <div class="member-social dark">
-                                            <a class="linkedin" href="https://au.linkedin.com/company/deadly-connections-community-justice-services" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                            <a class="facebook" href="https://www.facebook.com/deadlyconnections/" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a class="instagram" href="https://www.instagram.com/deadlyconnections/" target="_blank"><i class="fa fa-instagram"></i></a>
-                                            <a class="twitter" href="https://twitter.com/deadlyccajs" target="_blank"><i class="fa fa-twitter"></i></a>
-                                    </div>    
-                                </div>
+                            
                             </div>
                         </div>
                     </div>
