@@ -832,6 +832,21 @@ border-style:none;
    border-color:rgb(0, 0, 0);
    border-style:none;
 }
+
+.tp-caption.light_heavy_15 {
+   font-size:15px;
+   line-height:20px;
+   font-weight:600;
+   font-family:Raleway;
+   color:rgb(255, 255, 255);
+   text-decoration:none;
+   background-color:transparent;
+   text-shadow:none;
+   border-width:0px;
+   border-color:rgb(0, 0, 0);
+   border-style:none;
+}
+
 .tp-caption.light_heavy_70 {
 font-size:70px;
 line-height:70px;
